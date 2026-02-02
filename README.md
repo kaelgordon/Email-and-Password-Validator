@@ -30,5 +30,19 @@ It was created as part of beginner Python practice and demonstrates the use of l
 
 1. Clone or download the repository.
 2. Run the script with Python 3:
+
+Enter your email: test@domain.com
+Enter your password: MyPass123
+
+✅ Email and password are valid!
+Enter your email: test@@domain.com
+Enter your password: pass
+
+❌ Email errors:
+- Email must contain exactly one '@'
+❌ Password errors:
+- Password must be at least 8 characters long
+- Password must contain at least one uppercase letter
+- Password must contain at least one digit
 ```bash
 python validator.py
